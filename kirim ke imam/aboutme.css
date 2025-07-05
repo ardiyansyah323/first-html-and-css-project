@@ -1,0 +1,123 @@
+*,
+ html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("backgroundaboutme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.nama {
+   margin-top: 100px;
+   color : white;
+  }
+.container {
+    
+}
+.container-navbar { background-color: rgba(0, 0, 0, 0.833);
+                    weight: 50%;
+                    height: 10.1vh;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 20px;
+                    position: relative;
+
+}
+.brand-name {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+.ul-navbar {
+ display: flex;
+ height: 70px;
+ justify-content: right;
+ align-items: center;
+}
+.li-container-navbar{
+list-style-type: none;
+padding: 20px;
+color: white;
+margin: 5px;
+font-size: 20Px;
+}
+.li-container-navbar:hover {
+background-color: tomato;
+transition: .2s ease-in-out;
+transition-delay: .3s;
+border-radius: 8px;
+}
+.A-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.landing-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.hello {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.headline {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.highlight{
+    color: #fbbf24;
+}
+
+.description{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fbbf24;
+    color: black;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .btn-outline:hover {
+    background-color: white;
+    color: black;
+  
+  }
+
